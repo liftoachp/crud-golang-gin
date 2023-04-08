@@ -1,0 +1,6 @@
+
+curl "http://localhost:8080/albums/3" \
+    --include \
+    --header "Content-Type: application/json" \
+    --request "POST" \
+    --data '{"title": "xyi"}'
